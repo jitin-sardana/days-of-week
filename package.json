@@ -1,6 +1,6 @@
 {
   "name": "days-of-week",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This library provides the days of week in different languages like English, Spanish, Italian, Dutch, French, Hindi, Bengali, Marathi, Punjabi with abbreviations",
   "author": "jitin-sardana",
   "license": "MIT",
@@ -57,5 +57,18 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "days of week",
+    "days abbreviations",
+    "days of week in Spanish",
+    "days of week in Italian",
+    "days of week in Dutch",
+    "days of week in French",
+    "days of week in German",
+    "days of week in Hindi",
+    "days of week in Bengali",
+    "days of week in Marathi",
+    "days of week in Punjabi"
   ]
 }

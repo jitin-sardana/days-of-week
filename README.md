@@ -1,6 +1,6 @@
 # days-of-week
 
-> This library provides the days of week in different languages like English, Spanish, Italian, Dutch, French, Hindi, Bengali, Marathi, Punjabi with abbreviations.
+> This library provides the days of week in different languages like English, Spanish, Italian, Dutch, French, German, Hindi, Bengali, Marathi, Punjabi with abbreviations.
 
 [![NPM](https://img.shields.io/npm/v/days-of-week.svg)](https://www.npmjs.com/package/days-of-week) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -41,6 +41,11 @@ console.log(days.abbr.dutch); // ["zon", "ma", "di", "woe", "don", "vrij", "zat"
 Days in French
 console.log(days.french); //  ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
 console.log(days.abbr.french); //["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"]
+
+
+Days in German
+console.log(days.german); // ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
+console.log(days.abbr.german); // ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"]
 
 
 Days in Hindi

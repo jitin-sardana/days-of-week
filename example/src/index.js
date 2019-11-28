@@ -21,6 +21,9 @@ console.log(days.abbr.dutch); // ["zon", "ma", "di", "woe", "don", "vrij", "zat"
 console.log(days.french); //  ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
 console.log(days.abbr.french); //["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"]
 
+console.log(days.german); // ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
+console.log(days.abbr.german); // ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"]
+
 
 console.log(days.hindi); // ["रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरूवार", "शुक्रवार", "शनिवार"]
 console.log(days.abbr.hindi); // ["रवि", "सोम", "मंगल", "बुध", "गुरू", "शुक्र", "शनि"]
