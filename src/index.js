@@ -24,3 +24,18 @@ module.exports.abbr = {
   punjabi: ['ਐਤ','ਸੋਮ','ਮੰਗਲ','ਬੁੱਧ','ਵੀਰ','ਸ਼ੁੱਕਰ','ਸ਼ਨੀ'],
   marathi: ['रवि','सोम','मंगळ','बुध','गुरू','शुक्र','शनि']
  }
+
+ Array.prototype.weekStartsWith = function(key) {
+   if(key<=6){
+    const weekDays = [];
+    const self = [];
+    for (let j=0; j<this.indexOf(this[key]); j++){
+      self.push(this[j]);
+    }
+    for (let i=key; i<this.length; i++){
+        weekDays.push(this[i]);
+    } 
+    return weekDays.concat(self);
+  } 
+  return this;
+ }

@@ -1,8 +1,9 @@
 const days = require('days-of-week');
 
-
+ 
 console.log(days.english); // ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 console.log(days.abbr.english); // ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+console.log(days.english.weekStartsWith(1)); //["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
 console.log(days.spanish); // ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
