@@ -1,6 +1,6 @@
 # days-of-week
 
-> This library provides the days of week in different languages like English, Spanish, Italian, Dutch, French, German, Hindi, Bengali, Marathi, Punjabi with abbreviations.
+> This package provides the days of week in different languages like English, Spanish, Italian, Dutch, French, German, Hindi, Bengali, Marathi, Punjabi with abbreviations.
 
 [![NPM](https://img.shields.io/npm/v/days-of-week.svg)](https://www.npmjs.com/package/days-of-week) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,7 +12,7 @@ npm install --save days-of-week
 
 ## Usage
 
-```jsx
+```javascript
 ES6
 import days from 'days-of-week'
 
